@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royyan | Portofolio - Web Developer Modern</title>
+
+    <!-- Meta Tags untuk SEO -->
+    <meta name="description"
+        content="Portofolio pribadi Royyan, seorang web developer profesional yang berspesialisasi dalam membuat aplikasi web berkualitas tinggi, modern, dan bersih.">
+    <meta name="keywords"
+        content="Royyan, Portofolio, Web Developer, Frontend Engineer, CSS, HTML, JavaScript, Desain Responsif">
+    <meta name="author" content="Royyan">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Remix Icon Library for Sleek Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND GLOWS -->
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="main-header">
+        <div class="container nav-wrapper">
+            <a href="#home" class="logo" id="nav-logo">
+                ROYYAN<span class="dot"></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home">Beranda</a>
+                <a href="#about" class="nav-link" id="link-about">Tentang & Pendidikan</a>
+                <a href="#skills" class="nav-link" id="link-skills">Keahlian</a>
+                <a href="#projects" class="nav-link" id="link-projects">Proyek</a>
+                <a href="#contact" class="nav-link" id="link-contact">Hubungi Saya</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <i class="ri-menu-3-line"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content reveal active">
+                <div class="hero-badge">
+                    <span class="ping"></span> Tersedia untuk proyek
+                </div>
+                <!-- Single H1 for SEO Integrity -->
+                <h1 class="hero-title">
+                    Hi, I am <span class="gradient-text">Royyan</span>
+                </h1>
+                <div class="hero-subtitle">Web Developer</div>
+                <p class="hero-description">
+                    Saya membangun situs web responsif premium dengan memadukan visual modern dan kode yang berkinerja
+                    tinggi, berfokus pada penyelesaian masalah digital serta memenuhi kebutuhan spesifik klien.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary" id="btn-hero-projects">
+                        Lihat Proyek <i class="ri-arrow-right-line"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">
+                        Hubungi Saya <i class="ri-chat-3-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal active">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-card">
+                    <!-- Premium AI Generated Developer Avatar -->
+                    <img src="assets/avatar.png" alt="Royyan - Web Developer Portrait" id="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT & EDUCATION SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Tentang & <span>Pendidikan</span></h2>
+                <p>Pelajari lebih lanjut tentang latar belakang, pencapaian profesional, dan riwayat pendidikan saya.
+                </p>
+            </div>
+            <div class="about-grid">
+                <!-- Left Details & Stats -->
+                <div class="about-details reveal">
+                    <p>
+                        Halo! Saya adalah seorang Web Developer yang berdedikasi tinggi dengan fokus utama pada desain
+                        frontend, framework responsif, dan menciptakan interaksi pengguna yang mulus. Tujuan utama saya
+                        adalah merancang produk digital yang bersih dan modern dengan menyeimbangkan estetika minimalis
+                        dan pengalaman interaktif yang kaya.
+                    </p>
+                    <p>
+                        Saya terus mempelajari standar dan teknik web modern untuk menghasilkan kode yang efisien dan
+                        berkinerja tinggi, berspesialisasi dalam pembuatan sistem desain, kompatibilitas lintas browser,
+                        dan mikro-animasi kustom.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-card" id="stat-experience">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Tahun Belajar</div>
+                        </div>
+                        <div class="stat-card" id="stat-projects">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Proyek Dibuat</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Timeline (Education) -->
+                <div class="education-container reveal">
+
+                    <!-- Education Item 1 -->
+                    <div class="education-item" id="edu-1">
+                        <div class="education-marker"></div>
+                        <div class="education-time">2027 - Sekarang</div>
+                        <h3 class="education-title">Sarjana Ilmu Komputer</h3>
+                        <p class="education-inst">Havard University</p>
+                        <p class="education-desc">
+                            Berfokus pada Rekayasa Perangkat Lunak, Struktur Data, Teknologi Web, dan Arsitektur Sistem
+                            Informasi.
+                        </p>
+                    </div>
+
+                    <!-- Education Item 2 -->
+                    <div class="education-item" id="edu-2">
+                        <div class="education-marker"></div>
+                        <div class="education-time">2025 - 2027</div>
+                        <h3 class="education-title">Lulusan Rekayasa Perangkat Lunak</h3>
+                        <p class="education-inst">Sekolah Menengah Kejuruan (SMK) muhammadiyah kajen</p>
+                        <p class="education-desc">
+                            Mempelajari fondasi dasar pemrograman dalam HTML, CSS, JavaScript, sistem basis data, dan
+                            arsitektur berorientasi objek.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Keahlian <span>Spesialisasi Saya</span></h2>
+                <p>Fondasi teknis dan perangkat lunak yang memungkinkan saya membangun solusi berkualitas tinggi.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Category 1: Frontend -->
+                <div class="skills-category reveal" id="skill-cat-frontend">
+                    <h3 class="category-title">
+                        <i class="ri-code-s-slash-line"></i> Pengembangan Frontend
+                    </h3>
+                    <div class="skill-list">
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 / Semantic HTML</span>
+                                <span class="skill-pct">95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="95"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 / Flexbox & Grid</span>
+                                <span class="skill-pct">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="85"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Category 2: Backend / Frameworks -->
+                <div class="skills-category reveal" id="skill-cat-backend">
+                    <h3 class="category-title">
+                        <i class="ri-braces-line"></i> Backend & Platform
+                    </h3>
+                    <div class="skill-list">
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-pct">75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Express Framework</span>
+                                <span class="skill-pct">70%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Databases (SQL & NoSQL)</span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Category 3: Design & Tools -->
+                <div class="skills-category reveal" id="skill-cat-tools">
+                    <h3 class="category-title">
+                        <i class="ri-pantone-line"></i> Alat Kreatif & Developer
+                    </h3>
+                    <div class="skill-list">
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & Kontrol Versi</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Desain UI (Figma)</span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Pengujian Desain Responsif</span>
+                                <span class="skill-pct">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percentage="90"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Proyek <span>Unggulan</span></h2>
+                <p>Galeri pilihan dari karya digital terbaru saya, menampilkan berbagai arsitektur dan sistem tata
+                    letak.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 (Fintech dashboard with generated premium image) -->
+                <div class="project-card reveal" id="proj-card-1">
+                    <div class="project-image">
+                        <img src="assets/Spaciaz – Real Estate & Construction Group WordPress Theme.jpg"
+                            alt="Construction group web">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary" id="demo-proj-1">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS Grid</span>
+                            <span class="project-tag">JS ES6</span>
+                        </div>
+                        <h3 class="project-title">Construction group website</h3>
+                        <p class="project-desc">
+                            Konsol analitik bertema gelap yang menampilkan aktivitas perdagangan, metrik portofolio
+                            waktu nyata, dan grafik interaktif yang dibuat dengan gaya glassmorphism kustom.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" id="github-proj-1">
+                                <i class="ri-github-line"></i> Kode Sumber
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Smart Home interface, designed using styled canvas/SVG) -->
+                <div class="project-card reveal" id="proj-card-2">
+                    <div class="project-image">
+                        <!-- Custom CSS SVG background for project 2 to make it visual and high-end -->
+                        <div
+                            style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at center, #0f1c3f 0%, #030712 100%);">
+                            <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#06b6d4"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary" id="demo-proj-2">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">SVG Design</span>
+                            <span class="project-tag">Micro-Interactions</span>
+                        </div>
+                        <h3 class="project-title">Kontrol Rumah Pintar IoT</h3>
+                        <p class="project-desc">
+                            Antarmuka interaktif yang memungkinkan pengguna menyesuaikan putaran suhu, lampu pintar, dan
+                            log energi dengan animasi UI yang mulus dan simulasi waktu nyata.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" id="github-proj-2">
+                                <i class="ri-github-line"></i> Kode Sumber
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 (Social Feed / E-commerce grid design) -->
+                <div class="project-card reveal" id="proj-card-3">
+                    <div class="project-image">
+                        <!-- Custom CSS SVG background for project 3 -->
+                        <div
+                            style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at center, #0a2135 0%, #030712 100%);">
+                            <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#3b82f6"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary" id="demo-proj-3">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">CSS Flexbox</span>
+                            <span class="project-tag">Fetch API</span>
+                            <span class="project-tag">Async JS</span>
+                        </div>
+                        <h3 class="project-title">Platform Cloud E-Commerce</h3>
+                        <p class="project-desc">
+                            Antarmuka toko web yang sangat dioptimalkan yang menyajikan produk dalam tampilan grid
+                            responsif, lengkap dengan keranjang belanja lokal dan caching pencarian.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" id="github-proj-3">
+                                <i class="ri-github-line"></i> Kode Sumber
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Mari Bekerja <span>Sama</span></h2>
+                <p>Punya ide atau proyek? Hubungi saya dan mari kita bangun sesuatu yang luar biasa.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left Side: Contact Information Cards -->
+                <div class="contact-info reveal">
+                    <div class="contact-title">
+                        <h3>Hubungi Saya</h3>
+                        <p>Jangan ragu untuk menghubungi saya melalui salah satu saluran di bawah ini. Saya akan
+                            menanggapi pertanyaan Anda dalam waktu 24 jam.</p>
+                    </div>
+
+                    <div class="contact-methods">
+
+                        <!-- Email Link -->
+                        <div class="contact-method-card" id="contact-card-email">
+                            <div class="contact-icon">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <div class="contact-details-text">
+                                <span class="label">Alamat Email</span>
+                                <a href="mailto:royyanfaza5@gmail.com">royyanfaza5@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Link (Interactive) -->
+                        <div class="contact-method-card" id="contact-card-wa">
+                            <div class="contact-icon">
+                                <i class="ri-whatsapp-line"></i>
+                            </div>
+                            <div class="contact-details-text">
+                                <span class="label">Chat WhatsApp</span>
+                                <a href="https://wa.me/6285641084174" target="_blank" rel="noopener noreferrer">+62
+                                    856-4108-4174<a>
+                            </div>
+                        </div>
+
+                        <!-- Location Info -->
+                        <div class="contact-method-card" id="contact-card-loc">
+                            <div class="contact-icon">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <div class="contact-details-text">
+                                <span class="label">Lokasi</span>
+                                <a href="#">Pekalongan, Indonesia</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Social Icons Row -->
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                            aria-label="GitHub Profile">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                            aria-label="LinkedIn Profile">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                            aria-label="Instagram Profile">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Contact Form -->
+                <div class="contact-form-container reveal" id="form-container">
+                    <form id="contact-form" autocomplete="off">
+
+                        <div class="form-group">
+                            <input type="text" id="form-name" class="form-input" placeholder=" " required>
+                            <label for="form-name" class="form-label">Nama Lengkap</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="form-email" class="form-input" placeholder=" " required>
+                            <label for="form-email" class="form-label">Alamat Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="form-message" class="form-input" placeholder=" " required></textarea>
+                            <label for="form-message" class="form-label">Pesan Anda</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="btn-submit-form"
+                            style="width: 100%; justify-content: center;">
+                            Kirim Pesan <i class="ri-send-plane-line"></i>
+                        </button>
+
+                        <!-- Status alert popup -->
+                        <div class="form-status" id="form-status"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                ROYYAN<span>.</span>
+            </div>
+            <div class="footer-text">
+                &copy; 2026 Royyan. Hak Cipta Dilindungi Undang-Undang. Dibuat dengan HTML, CSS & JavaScript.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
